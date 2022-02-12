@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "@/components/Card";
 import ReactIcon from "@/icons/react";
 import GatsbyIcon from "@/icons/gatsby";
 import StrapiIcon from "@/icons/strapi";
@@ -9,13 +9,13 @@ import MongoDBIcon from "@/icons/mongodb";
 
 export default function Projects() {
   return (
-    <div className="mt-40 px-4 flex flex-col items-center">
-      <div className="mb-10">
+    <div className="w-full mt-40 mx-auto px-4 flex flex-col items-center">
+      <div>
         <h1 className="font-title font-bold text-2xl leading-9 text-title text-center">
           Featured Projects
         </h1>
       </div>
-      <div className="space-y-8">
+      <div className="mt-16 xl:px-16 flex flex-col xl:flex-row items-baseline xl:space-x-4 space-y-8 xl:space-y-0">
         <Card
           title="Portfolio v1"
           details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero

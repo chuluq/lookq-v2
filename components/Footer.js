@@ -1,7 +1,7 @@
-import GithubIcon from "@/icons/github";
-import TwitterIcon from "@/icons/twitter";
-import InstagramIcon from "@/icons/instagram";
-import LinkedInIcon from "@/icons/linkedin";
+import GithubIcon from "constants/icons/github";
+import TwitterIcon from "constants/icons/twitter";
+import InstagramIcon from "constants/icons/instagram";
+import LinkedInIcon from "constants/icons/linkedin";
 
 export default function Footer() {
   return (

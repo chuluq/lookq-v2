@@ -1,11 +1,11 @@
 import Card from "@/components/Card";
-import ReactIcon from "@/icons/react";
-import GatsbyIcon from "@/icons/gatsby";
-import StrapiIcon from "@/icons/strapi";
-import MarkdownIcon from "@/icons/markdown";
-import NodeIcon from "@/icons/node";
-import ExpressIcon from "@/icons/express";
-import MongoDBIcon from "@/icons/mongodb";
+import ReactIcon from "constants/icons/react";
+import GatsbyIcon from "constants/icons/gatsby";
+import StrapiIcon from "constants/icons/strapi";
+import MarkdownIcon from "constants/icons/markdown";
+import NodeIcon from "constants/icons/node";
+import ExpressIcon from "constants/icons/express";
+import MongoDBIcon from "constants/icons/mongodb";
 
 export default function Projects() {
   return (

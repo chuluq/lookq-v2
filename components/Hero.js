@@ -3,7 +3,7 @@ import designer from "@/assets/images/designer.svg";
 
 export default function Hero() {
   return (
-    <div className="w-full h-full xl:w-[80vw] xl:mb-16 mx-auto flex flex-row items-center justify-between">
+    <div className="w-full h-full xl:w-[80vw] xl:mb-16 mx-auto md:px-10 flex flex-row items-center justify-between">
       <div className="flex flex-col xl:grid px-4 md:px-8 lg:px-16 w-full">
         <div className="mb-16 lg:mb-24 flex flex-col space-y-2">
           <h1 className="font-title font-bold text-[32px] lg:text-[56px] leading-[45px] text-title">

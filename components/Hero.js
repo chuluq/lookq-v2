@@ -24,7 +24,7 @@ export default function Hero() {
           </p>
         </div>
         <div>
-          <button className="bg-white py-3 px-6 font-title font-bold text-lg leading-[22px] text-sky-600 rounded border border-sky-600 uppercase">
+          <button className="bg-white hover:bg-sky-600 py-3 px-6 font-title font-bold text-lg leading-[22px] text-sky-600 hover:text-title-white rounded border border-sky-600 uppercase">
             get in touch
           </button>
         </div>

@@ -61,21 +61,21 @@ export default function Navbar() {
           <div className="flex flex-row items-center space-x-8">
             <div className="hidden lg:flex lg:flex-row lg:items-center lg:space-x-4">
               <Link href="/">
-                <a className="font-body font-normal text-base leading-6 text-title capitalize">
+                <a className="font-body font-normal hover:font-medium text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer hover:underline hover:underline-offset-8 decoration-sky-600 transition-colors ease-in-out hover:-translate-y-1 hover:duration-300 motion-safe:transition-none">
                   home
                 </a>
               </Link>
               <Link href="/about">
-                <a className="font-body font-normal text-base leading-6 text-title capitalize">
+                <a className="font-body font-normal hover:font-medium text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer hover:underline hover:underline-offset-8 decoration-sky-600 transition-colors ease-in-out hover:-translate-y-1 hover:duration-300 motion-safe:transition-none">
                   about
                 </a>
               </Link>
               <Link href="/projects">
-                <a className="font-body font-normal text-base leading-6 text-title capitalize">
+                <a className="font-body font-normal hover:font-medium text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer hover:underline hover:underline-offset-8 decoration-sky-600 transition-colors ease-in-out hover:-translate-y-1 hover:duration-300 motion-safe:transition-none">
                   projects
                 </a>
               </Link>
-              <a className="font-body font-normal text-base leading-6 text-title uppercase">
+              <a className="font-body font-normal hover:font-medium text-base leading-6 text-title hover:text-sky-600 uppercase cursor-pointer hover:underline hover:underline-offset-8 decoration-sky-600 transition-colors ease-in-out hover:-translate-y-1 hover:duration-300 motion-safe:transition-none">
                 cv
               </a>
             </div>
@@ -101,21 +101,21 @@ export default function Navbar() {
           } w-full my-4 lg:hidden`}
         >
           <Link href="/">
-            <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
+            <a className="py-4 font-body font-normal hover:font-medium text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
               home
             </a>
           </Link>
           <Link href="/about">
-            <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
+            <a className="py-4 font-body font-normal hover:font-medium text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
               about
             </a>
           </Link>
           <Link href="/projects">
-            <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
+            <a className="py-4 font-body font-normal hover:font-medium text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
               projects
             </a>
           </Link>
-          <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 uppercase cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
+          <a className="py-4 font-body font-normal hover:font-medium text-base leading-6 text-title hover:text-sky-600 uppercase cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
             cv
           </a>
         </div>

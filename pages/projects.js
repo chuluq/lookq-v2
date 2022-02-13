@@ -11,7 +11,7 @@ import MongoDBIcon from "constants/icons/mongodb";
 export default function Projects() {
   return (
     <Layout>
-      <div className="px-4 sm:px-8 mx-auto w-full md:w-8/12 flex flex-col items-center xl:items-start">
+      <div className="px-4 sm:px-8 mx-auto w-full md:w-8/12 flex flex-col items-center sm:items-start">
         <div className="mb-16 flex flex-col">
           <h1 className="font-title font-bold text-[32px] leading-[45px] text-title capitalize">
             Projects
@@ -21,7 +21,6 @@ export default function Projects() {
           </p>
         </div>
 
-        {/* <div className="mt-16 xl:px-16 flex flex-col xl:flex-row items-center xl:items-baseline xl:space-x-4 space-y-8 xl:space-y-0"> */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-16">
           <Card
             title="Portfolio v1"

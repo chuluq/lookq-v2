@@ -8,16 +8,20 @@ export default function Footer() {
     <div className="mt-32 py-8 flex flex-col items-center space-y-4 lg:space-y-0 w-full border-t border-line">
       <div className="flex flex-row items-start lg:space-x-64">
         <div className="hidden lg:flex lg:flex-col lg:space-y-2">
-          <a className="font-body font-normal text-base leading-6 text-body capitalize">
+          <a className="font-body font-normal text-base leading-6 text-body hover:text-title capitalize cursor-pointer">
             home
           </a>
-          <a className="font-body font-normal text-base leading-6 text-body capitalize">
+          <a className="font-body font-normal text-base leading-6 text-body hover:text-title capitalize cursor-pointer">
             about
           </a>
-          <a className="font-body font-normal text-base leading-6 text-body capitalize">
+          <a className="font-body font-normal text-base leading-6 text-body hover:text-title capitalize cursor-pointer">
             projects
           </a>
-          <a className="font-body font-normal text-base leading-6 text-body uppercase">
+          <a
+            href="/cv_chuluq.pdf"
+            download="cv_chuluq"
+            className="font-body font-normal text-base leading-6 text-body hover:text-title uppercase cursor-pointer"
+          >
             cv
           </a>
         </div>

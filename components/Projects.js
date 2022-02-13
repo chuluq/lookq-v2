@@ -15,7 +15,7 @@ export default function Projects() {
           Featured Projects
         </h1>
       </div>
-      <div className="mt-16 xl:px-16 flex flex-col xl:flex-row items-baseline xl:space-x-4 space-y-8 xl:space-y-0">
+      <div className="mt-16 xl:px-16 flex flex-col xl:flex-row items-center xl:items-baseline xl:space-x-4 space-y-8 xl:space-y-0">
         <Card
           title="Portfolio v1"
           details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
@@ -25,19 +25,19 @@ export default function Projects() {
           tools={[
             {
               id: 1,
-              icon: <ReactIcon />,
+              icon: <ReactIcon className="w-6 h-6 hover:fill-[#61DAFB]" />,
             },
             {
               id: 2,
-              icon: <GatsbyIcon />,
+              icon: <GatsbyIcon className="w-6 h-6 hover:fill-[#663399]" />,
             },
             {
               id: 3,
-              icon: <StrapiIcon />,
+              icon: <StrapiIcon className="w-6 h-6 hover:fill-[#2F2E8B]" />,
             },
             {
               id: 4,
-              icon: <MarkdownIcon />,
+              icon: <MarkdownIcon className="w-6 h-6" />,
             },
           ]}
         />
@@ -49,19 +49,19 @@ export default function Projects() {
           tools={[
             {
               id: 1,
-              icon: <ReactIcon />,
+              icon: <ReactIcon className="w-6 h-6 hover:fill-[#61DAFB]" />,
             },
             {
               id: 2,
-              icon: <NodeIcon />,
+              icon: <NodeIcon className="w-6 h-6 hover:fill-[#339933]" />,
             },
             {
               id: 3,
-              icon: <ExpressIcon />,
+              icon: <ExpressIcon className="w-6 h-6" />,
             },
             {
               id: 4,
-              icon: <MongoDBIcon />,
+              icon: <MongoDBIcon className="w-6 h-6 hover:fill-[#47A248]" />,
             },
           ]}
         />

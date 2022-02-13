@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [showLink, setShowLink] = useState(false);
@@ -51,21 +52,29 @@ export default function Navbar() {
             </button>
           </div>
 
-          <h1 className="font-title font-bold text-xl lg:text-5xl text-title">
-            Logo
-          </h1>
+          <Link href="/">
+            <a className="font-title font-bold text-xl lg:text-5xl text-title">
+              Logo
+            </a>
+          </Link>
 
           <div className="flex flex-row items-center space-x-8">
             <div className="hidden lg:flex lg:flex-row lg:items-center lg:space-x-4">
-              <a className="font-body font-normal text-base leading-6 text-title capitalize">
-                home
-              </a>
-              <a className="font-body font-normal text-base leading-6 text-title capitalize">
-                about
-              </a>
-              <a className="font-body font-normal text-base leading-6 text-title capitalize">
-                projects
-              </a>
+              <Link href="/">
+                <a className="font-body font-normal text-base leading-6 text-title capitalize">
+                  home
+                </a>
+              </Link>
+              <Link href="/about">
+                <a className="font-body font-normal text-base leading-6 text-title capitalize">
+                  about
+                </a>
+              </Link>
+              <Link href="/projects">
+                <a className="font-body font-normal text-base leading-6 text-title capitalize">
+                  projects
+                </a>
+              </Link>
               <a className="font-body font-normal text-base leading-6 text-title uppercase">
                 cv
               </a>
@@ -91,15 +100,21 @@ export default function Navbar() {
             !showLink ? "hidden" : "flex flex-col"
           } w-full my-4 lg:hidden`}
         >
-          <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
-            home
-          </a>
-          <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
-            about
-          </a>
-          <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
-            projects
-          </a>
+          <Link href="/">
+            <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
+              home
+            </a>
+          </Link>
+          <Link href="/about">
+            <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
+              about
+            </a>
+          </Link>
+          <Link href="/projects">
+            <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
+              projects
+            </a>
+          </Link>
           <a className="py-4 font-body font-normal text-base leading-6 text-title hover:text-sky-600 uppercase cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 hover:duration-150">
             cv
           </a>

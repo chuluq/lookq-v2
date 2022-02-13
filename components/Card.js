@@ -6,7 +6,7 @@ export default function Card({ title, details, siteUrl, sourceUrl, tools }) {
   };
 
   return (
-    <div className="w-[30rem] xl:w-full h-auto shadow space-y-12">
+    <div className="lg:w-[30rem] xl:w-full h-auto shadow space-y-12">
       <div className="flex items-center justify-center bg-title h-32">
         <h3 className=" font-title font-bold text-xl leading-[30px] text-title-white text-center capitalize">
           {title}

@@ -12,7 +12,8 @@ module.exports = {
       colors: {
         title: "#232323",
         body: "#595959",
-        "title-white": "#fcfcfc",
+        "title-white": "#FCFCFC",
+        line: "#D9D9D9",
       },
     },
   },

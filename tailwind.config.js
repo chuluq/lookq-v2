@@ -8,7 +8,7 @@ module.exports = {
       fontFamily: {
         title: ["Sora", "sans-serif"],
         body: ["Montserrat", "sans-serif"],
-        display: ["Cinzel", "serif"],
+        decorative: ["Cinzel\\ Decorative", "cursive"],
       },
       colors: {
         title: "#232323",

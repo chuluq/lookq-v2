@@ -53,7 +53,7 @@ export default function Navbar() {
           </div>
 
           <Link href="/">
-            <a className="font-display font-bold text-xl lg:text-5xl text-title tracking-wider uppercase">
+            <a className="font-decorative font-bold text-2xl lg:text-4xl text-title uppercase">
               lookq
             </a>
           </Link>

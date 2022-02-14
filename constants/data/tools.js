@@ -31,38 +31,38 @@ const tools = [
     ),
   },
   {
-    id: 1,
+    id: 4,
     name: "React",
     icon: (
       <ReactIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#61DAFB]" />
     ),
   },
   {
-    id: 1,
+    id: 5,
     name: "NextJS",
     icon: <NextIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />,
   },
   {
-    id: 1,
+    id: 6,
     name: "TailwindCSS",
     icon: (
       <TailwindIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#06B6D4]" />
     ),
   },
   {
-    id: 1,
+    id: 7,
     name: "NodeJS",
     icon: (
       <NodeIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#339933]" />
     ),
   },
   {
-    id: 1,
+    id: 8,
     name: "ExpressJS",
     icon: <ExpressIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />,
   },
   {
-    id: 1,
+    id: 9,
     name: "Figma",
     icon: (
       <FigmaIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#F24E1E]" />

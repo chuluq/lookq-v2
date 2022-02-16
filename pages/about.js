@@ -1,6 +1,13 @@
 import Layout from "@/components/Layout";
-import Tools from "@/components/Tools";
-import tools from "@/data/tools";
+import HTMLIcon from "@/icons/html";
+import CSSIcon from "@/icons/css";
+import JavaScriptIcon from "@/icons/javascript";
+import ReactIcon from "@/icons/react";
+import NextIcon from "@/icons/next";
+import NodeIcon from "@/icons/node";
+import ExpressIcon from "@/icons/express";
+import TailwindIcon from "@/icons/tailwind";
+import FigmaIcon from "@/icons/figma";
 
 export default function About() {
   return (
@@ -97,19 +104,60 @@ export default function About() {
             </p>
           </div>
           <div className="grid grid-cols-3 gap-6">
-            {tools?.map((item) => {
-              return (
-                <div
-                  key={item?.id}
-                  className="mx-auto flex flex-col items-center space-y-2"
-                >
-                  {item?.icon}
-                  <p className="font-body font-normal text-base leading-4 text-title text-center">
-                    {item?.name}
-                  </p>
-                </div>
-              );
-            })}
+            <div className="mx-auto flex flex-col items-center space-y-2">
+              <HTMLIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#E34F26]" />
+              <p className="font-body font-normal text-base leading-4 text-title text-center">
+                HTML5
+              </p>
+            </div>
+            <div className="mx-auto flex flex-col items-center space-y-2">
+              <CSSIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#1572B6]" />
+              <p className="font-body font-normal text-base leading-4 text-title text-center">
+                CSS3
+              </p>
+            </div>
+            <div className="mx-auto flex flex-col items-center space-y-2">
+              <JavaScriptIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#F7DF1E]" />
+              <p className="font-body font-normal text-base leading-4 text-title text-center">
+                JavaScript
+              </p>
+            </div>
+            <div className="mx-auto flex flex-col items-center space-y-2">
+              <ReactIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#61DAFB]" />
+              <p className="font-body font-normal text-base leading-4 text-title text-center">
+                React
+              </p>
+            </div>
+            <div className="mx-auto flex flex-col items-center space-y-2">
+              <NextIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />
+              <p className="font-body font-normal text-base leading-4 text-title text-center">
+                NextJS
+              </p>
+            </div>
+            <div className="mx-auto flex flex-col items-center space-y-2">
+              <TailwindIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#06B6D4]" />
+              <p className="font-body font-normal text-base leading-4 text-title text-center">
+                TailwindCSS
+              </p>
+            </div>
+            <div className="mx-auto flex flex-col items-center space-y-2">
+              <NodeIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#339933]" />
+              <p className="font-body font-normal text-base leading-4 text-title text-center">
+                NodeJS
+              </p>
+            </div>
+            <div className="mx-auto flex flex-col items-center space-y-2">
+              <ExpressIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />
+              <p className="font-body font-normal text-base leading-4 text-title text-center">
+                ExpressJS
+              </p>
+            </div>
+            <div className="mx-auto flex flex-col items-center space-y-2">
+              <FigmaIcon className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 hover:fill-[#F24E1E]" />
+              <p className="font-body font-normal text-base leading-4 text-title text-center">
+                Figma
+              </p>
+            </div>
           </div>
         </div>
       </div>

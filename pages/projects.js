@@ -7,10 +7,10 @@ export default function Projects() {
     <Layout>
       <div className="px-4 sm:px-8 mx-auto w-full md:w-8/12 flex flex-col items-center sm:items-start">
         <div className="mb-16 flex flex-col">
-          <h1 className="font-title font-bold text-[32px] leading-[45px] text-title capitalize">
+          <h1 className="font-title font-bold text-[32px] leading-[45px] text-title dark:text-title-white capitalize">
             Projects
           </h1>
-          <p className="font-body font-normal text-lg left-6 text-body">
+          <p className="font-body font-normal text-lg left-6 text-body dark:text-body-dark">
             Here are some projects that I&apos;ve been worked on.
           </p>
         </div>

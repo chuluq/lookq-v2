@@ -3,6 +3,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
@@ -13,8 +14,10 @@ module.exports = {
       colors: {
         title: "#232323",
         body: "#595959",
+        "body-dark": "#d9d9d9",
         "title-white": "#FCFCFC",
         line: "#D9D9D9",
+        dark: "#222322",
       },
     },
   },

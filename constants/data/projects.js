@@ -19,15 +19,19 @@ const projects = [
     tools: [
       {
         id: 1,
-        icon: <ReactIcon className="w-6 h-6 hover:fill-[#61DAFB]" />,
+        icon: (
+          <ReactIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]" />
+        ),
       },
       {
         id: 2,
-        icon: <NextIcon className="w-6 h-6" />,
+        icon: <NextIcon className="w-6 h-6 dark:fill-title-white" />,
       },
       {
         id: 3,
-        icon: <TailwindIcon className="w-6 h-6 hover:fill-[#06B6D4]" />,
+        icon: (
+          <TailwindIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#06B6D4] dark:hover:fill-[#06B6D4]" />
+        ),
       },
     ],
   },
@@ -41,19 +45,25 @@ const projects = [
     tools: [
       {
         id: 1,
-        icon: <ReactIcon className="w-6 h-6 hover:fill-[#61DAFB]" />,
+        icon: (
+          <ReactIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]" />
+        ),
       },
       {
         id: 2,
-        icon: <GatsbyIcon className="w-6 h-6 hover:fill-[#663399]" />,
+        icon: (
+          <GatsbyIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#663399] dark:hover:fill-[#663399]" />
+        ),
       },
       {
         id: 3,
-        icon: <StrapiIcon className="w-6 h-6 hover:fill-[#2F2E8B]" />,
+        icon: (
+          <StrapiIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#2F2E8B] dark:hover:fill-[#2F2E8B]" />
+        ),
       },
       {
         id: 4,
-        icon: <MarkdownIcon className="w-6 h-6" />,
+        icon: <MarkdownIcon className="w-6 h-6 dark:fill-title-white" />,
       },
     ],
   },
@@ -66,19 +76,25 @@ const projects = [
     tools: [
       {
         id: 1,
-        icon: <ReactIcon className="w-6 h-6 hover:fill-[#61DAFB]" />,
+        icon: (
+          <ReactIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]" />
+        ),
       },
       {
         id: 2,
-        icon: <NodeIcon className="w-6 h-6 hover:fill-[#339933]" />,
+        icon: (
+          <NodeIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#339933] dark:hover:fill-[#339933]" />
+        ),
       },
       {
         id: 3,
-        icon: <ExpressIcon className="w-6 h-6" />,
+        icon: <ExpressIcon className="w-6 h-6 dark:fill-title-white" />,
       },
       {
         id: 4,
-        icon: <MongoDBIcon className="w-6 h-6 hover:fill-[#47A248]" />,
+        icon: (
+          <MongoDBIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#47A248] dark:hover:fill-[#47A248]" />
+        ),
       },
     ],
   },

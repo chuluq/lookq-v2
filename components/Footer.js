@@ -6,7 +6,7 @@ import LinkedInIcon from "constants/icons/linkedin";
 
 export default function Footer() {
   return (
-    <div className="mt-32 py-8 flex flex-col items-center space-y-4 lg:space-y-0 w-full border-t border-line">
+    <footer className="mt-32 py-8 flex flex-col items-center space-y-4 lg:space-y-0 w-full border-t border-line">
       <div className="flex flex-row items-start lg:space-x-64">
         <div className="hidden lg:flex lg:flex-col lg:space-y-2">
           <Link href="/">
@@ -67,6 +67,6 @@ export default function Footer() {
           &#169; Developed by Chaerul Chuluq
         </p>
       </div>
-    </div>
+    </footer>
   );
 }

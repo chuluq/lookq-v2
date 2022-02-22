@@ -1,10 +1,13 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import Card from "@/components/Card";
 import projects from "@/data/projects";
 
 export default function Projects() {
   return (
     <Layout>
+      <SEO title="Projects" description="Some projects I've been worked on." />
+
       <div className="px-4 sm:px-8 mx-auto w-full md:w-8/12 flex flex-col items-center sm:items-start">
         <div className="mb-16 flex flex-col">
           <h1 className="font-title font-bold text-[32px] leading-[45px] text-title dark:text-title-white capitalize">

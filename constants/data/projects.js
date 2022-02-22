@@ -13,7 +13,7 @@ const projects = [
     id: 1,
     title: "Portfolio v2",
     details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestias nam ea neque ipsum deleniti, cupiditate ex odio cumque quas?",
+      "This site! my personal portfolio built with NextJS and TailwindCSS.",
     siteUrl: "https://lookq.netlify.app/",
     sourceUrl: "https://github.com/chuluq/lookq.com",
     tools: [
@@ -38,8 +38,7 @@ const projects = [
   {
     id: 2,
     title: "Portfolio v1",
-    details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestias nam ea neque ipsum deleniti, cupiditate ex odio cumque quas?",
+    details: "The first creation of my portfolio built with Gatsby and Strapi.",
     siteUrl: "https://lookq.netlify.app/",
     sourceUrl: "https://github.com/chuluq/lookq.com",
     tools: [
@@ -71,7 +70,7 @@ const projects = [
     id: 3,
     title: "contact keeper",
     details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestias nam ea neque ipsum deleniti, cupiditate ex odio cumque quas?",
+      "A CRUD application using MongoDB, Express, and React Technologies.",
     sourceUrl: "https://github.com/chuluq/contact-keeper",
     tools: [
       {

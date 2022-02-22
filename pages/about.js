@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import HTMLIcon from "@/icons/html";
 import CSSIcon from "@/icons/css";
 import JavaScriptIcon from "@/icons/javascript";
@@ -12,6 +13,8 @@ import FigmaIcon from "@/icons/figma";
 export default function About() {
   return (
     <Layout>
+      <SEO title="About" description="Short introduction about me." />
+
       {/* About */}
       <div className="px-8 lg:mx-auto md:px-16 lg:px-32 w-full xl:w-[80vw] flex flex-col">
         <div className="mb-24">

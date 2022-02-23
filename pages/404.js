@@ -1,11 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import notFound from "@/assets/images/404.svg";
 
 export default function NotFound() {
   return (
     <Layout>
+      <SEO title="404 page" description="Not found page." />
+
       <div className="flex flex-col-reverse md:flex-row items-center justify-evenly px-8 mx-auto">
         <div className="mb-16 lg:mb-24 flex flex-col space-y-4 text-center md:text-left">
           <h1 className="font-title font-bold text-[32px] lg:text-[56px] leading-[45px] text-title dark:text-title-white">

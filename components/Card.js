@@ -9,7 +9,7 @@ export default function Card({ title, details, siteUrl, sourceUrl, tools }) {
         </h3>
       </div>
 
-      <div className="px-8 space-y-8">
+      <div className="px-8 flex flex-col space-y-8">
         <h3 className="font-title font-bold text-xl leading-[30px] text-title dark:text-title-white capitalize">
           {title}
         </h3>
@@ -31,7 +31,7 @@ export default function Card({ title, details, siteUrl, sourceUrl, tools }) {
           </div>
         )}
 
-        <div className="pb-8 flex flex-row items-center space-x-2">
+        <div className="pb-8 mt-auto flex flex-1 flex-row items-center space-x-2">
           {siteUrl && (
             <a
               href={siteUrl}

@@ -1,8 +1,11 @@
 import Link from "next/link";
+import GmailIcon from "@/icons/gmail";
 import GithubIcon from "constants/icons/github";
+import WhatsAppIcon from "@/icons/whatsapp";
 import TwitterIcon from "constants/icons/twitter";
 import InstagramIcon from "constants/icons/instagram";
 import LinkedInIcon from "constants/icons/linkedin";
+import socialLinks from "@/data/socialLinks";
 
 export default function Footer() {
   return (
@@ -33,33 +36,20 @@ export default function Footer() {
           </a>
         </div>
         <div className="flex flex-row lg:flex-col items-center lg:items-start">
-          <a
-            href="https://github.com/chuluq/"
-            className="p-2 flex flex-row lg:items-center lg:space-x-1 cursor-pointer"
-          >
-            <GithubIcon className="w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#181717] dark:hover:fill-body-dark transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1" />
-            <p className="hidden lg:block font-body text-body dark:text-title-white hover:text-title dark:hover:text-body-dark">
-              Github
-            </p>
-          </a>
-          <a className="p-2 flex flex-row lg:items-center lg:space-x-1 cursor-pointer">
-            <TwitterIcon className="w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#1DA1F2] dark:hover:fill-[#1DA1F2] transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1" />
-            <p className="hidden lg:block font-body text-body dark:text-title-white hover:text-title dark:hover:text-body-dark">
-              Twitter
-            </p>
-          </a>
-          <a className="p-2 flex flex-row lg:items-center lg:space-x-1 cursor-pointer">
-            <InstagramIcon className="w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#E4405F] dark:hover:fill-[#E4405F] transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1" />
-            <p className="hidden lg:block font-body text-body dark:text-title-white hover:text-title dark:hover:text-body-dark">
-              Instagram
-            </p>
-          </a>
-          <a className="p-2 flex flex-row lg:items-center lg:space-x-1 cursor-pointer">
-            <LinkedInIcon className="w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#0A66C2] dark:hover:fill-[#0A66C2] transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1" />
-            <p className="hidden lg:block font-body text-body dark:text-title-white hover:text-title dark:hover:text-body-dark">
-              LinkedIn
-            </p>
-          </a>
+          {socialLinks?.map((item) => {
+            return (
+              <a
+                key={item.id}
+                href={item.url}
+                className="p-2 flex flex-row lg:items-center lg:space-x-1 cursor-pointer"
+              >
+                {item.icon}
+                <p className="hidden lg:block font-body text-body dark:text-title-white hover:text-title dark:hover:text-body-dark">
+                  {item.name}
+                </p>
+              </a>
+            );
+          })}
         </div>
       </div>
       <div className="lg:pt-16">

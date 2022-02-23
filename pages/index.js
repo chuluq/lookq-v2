@@ -44,9 +44,12 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <button className="bg-white dark:bg-transparent hover:bg-sky-600 dark:hover:bg-sky-600 py-3 px-6 font-title font-bold text-lg leading-[22px] text-sky-600 hover:text-title-white dark:hover:text-title rounded border border-sky-600 uppercase">
+            <a
+              href="mailto:choirulchuluq10@gmail.com"
+              className="bg-white dark:bg-transparent hover:bg-sky-600 dark:hover:bg-sky-600 py-3 px-6 font-title font-bold text-lg leading-[22px] text-sky-600 hover:text-title-white dark:hover:text-title rounded border border-sky-600 uppercase"
+            >
               get in touch
-            </button>
+            </a>
           </div>
         </div>
         <div className="hidden xl:inline-block">
@@ -62,7 +65,7 @@ export default function Home() {
               Featured Projects
             </h1>
           </div>
-          <div className="mt-16 xl:px-16 flex flex-col xl:flex-row items-center xl:items-baseline xl:space-x-4 space-y-8 xl:space-y-0">
+          <div className="mt-16 grid grid-cols-1 xl:grid-cols-2 gap-16">
             {arr?.map((item) => {
               const { id, title, details, siteUrl, sourceUrl, tools } = item;
 

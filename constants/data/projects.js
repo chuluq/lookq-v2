@@ -10,8 +10,27 @@ import MarkdownIcon from "constants/icons/markdown";
 import NodeIcon from "constants/icons/node";
 import ExpressIcon from "constants/icons/express";
 import MongoDBIcon from "constants/icons/mongodb";
+import Icon from "@/components/Icon";
+import {
+  HTML,
+  CSS3,
+  JAVASCRIPT,
+  TYPESCRIPT,
+  REACT,
+  NEXTJS,
+  GATSBYJS,
+  REACTNATIVE,
+  REDUX,
+  STRAPIJS,
+  MARKDOWN,
+  TAILWINDCSS,
+  NODEJS,
+  EXPRESSJS,
+  MONGODB,
+  FIGMA,
+} from "@/data/icons";
 
-const projects = [
+export const projects = [
   {
     id: 1,
     title: "Portfolio v2",
@@ -23,17 +42,23 @@ const projects = [
       {
         id: 1,
         icon: (
-          <ReactIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]" />
+          <Icon
+            name={REACT}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]"
+          />
         ),
       },
       {
         id: 2,
-        icon: <NextIcon className="w-6 h-6 dark:fill-title-white" />,
+        icon: <Icon name={NEXTJS} className="w-6 h-6 dark:fill-title-white" />,
       },
       {
         id: 3,
         icon: (
-          <TailwindIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#06B6D4] dark:hover:fill-[#06B6D4]" />
+          <Icon
+            name={TAILWINDCSS}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#06B6D4] dark:hover:fill-[#06B6D4]"
+          />
         ),
       },
     ],
@@ -48,24 +73,35 @@ const projects = [
       {
         id: 1,
         icon: (
-          <ReactIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]" />
+          <Icon
+            name={REACT}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]"
+          />
         ),
       },
       {
         id: 2,
         icon: (
-          <GatsbyIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#663399] dark:hover:fill-[#663399]" />
+          <Icon
+            name={GATSBYJS}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#663399] dark:hover:fill-[#663399]"
+          />
         ),
       },
       {
         id: 3,
         icon: (
-          <StrapiIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#2F2E8B] dark:hover:fill-[#2F2E8B]" />
+          <Icon
+            name={STRAPIJS}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#2F2E8B] dark:hover:fill-[#2F2E8B]"
+          />
         ),
       },
       {
         id: 4,
-        icon: <MarkdownIcon className="w-6 h-6 dark:fill-title-white" />,
+        icon: (
+          <Icon name={MARKDOWN} className="w-6 h-6 dark:fill-title-white" />
+        ),
       },
     ],
   },
@@ -79,23 +115,34 @@ const projects = [
       {
         id: 1,
         icon: (
-          <ReactIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]" />
+          <Icon
+            name={REACT}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]"
+          />
         ),
       },
       {
         id: 2,
         icon: (
-          <NodeIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#339933] dark:hover:fill-[#339933]" />
+          <Icon
+            name={NODEJS}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#339933] dark:hover:fill-[#339933]"
+          />
         ),
       },
       {
         id: 3,
-        icon: <ExpressIcon className="w-6 h-6 dark:fill-title-white" />,
+        icon: (
+          <Icon name={EXPRESSJS} className="w-6 h-6 dark:fill-title-white" />
+        ),
       },
       {
         id: 4,
         icon: (
-          <MongoDBIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#47A248] dark:hover:fill-[#47A248]" />
+          <Icon
+            name={MONGODB}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#47A248] dark:hover:fill-[#47A248]"
+          />
         ),
       },
     ],
@@ -110,23 +157,30 @@ const projects = [
       {
         id: 1,
         icon: (
-          <HTMLIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#E34F26] dark:hover:fill-[#E34F26]" />
+          <Icon
+            name={HTML}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#E34F26] dark:hover:fill-[#E34F26]"
+          />
         ),
       },
       {
         id: 2,
         icon: (
-          <CSSIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#1572B6] dark:hover:fill-[#1572B6]" />
+          <Icon
+            name={CSS3}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#1572B6] dark:hover:fill-[#1572B6]"
+          />
         ),
       },
       {
         id: 3,
         icon: (
-          <JavaScriptIcon className="w-6 h-6 dark:fill-title-white hover:fill-[#F7DF1E] dark:hover:fill-[#F7DF1E]" />
+          <Icon
+            name={JAVASCRIPT}
+            className="w-6 h-6 dark:fill-title-white hover:fill-[#F7DF1E] dark:hover:fill-[#F7DF1E]"
+          />
         ),
       },
     ],
   },
 ];
-
-export default projects;

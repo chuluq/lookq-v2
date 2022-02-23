@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { ThemeContext } from "@/components/ThemeContext";
 import Link from "next/link";
-import links from "@/data/links";
+import { links } from "@/data/links";
 
 export default function Navbar() {
   const [showLink, setShowLink] = useState(false);

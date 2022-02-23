@@ -1,4 +1,4 @@
-const links = [
+export const links = [
   {
     id: 1,
     name: "home",
@@ -15,5 +15,3 @@ const links = [
     url: "/projects",
   },
 ];
-
-export default links;

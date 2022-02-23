@@ -3,7 +3,7 @@ import Link from "next/link";
 import Layout from "@/components/Layout";
 import SEO from "@/components/SEO";
 import Card from "@/components/Card";
-import projects from "@/data/projects";
+import { projects } from "@/data/projects";
 import designer from "@/assets/images/designer.svg";
 
 export default function Home() {

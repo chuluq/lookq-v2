@@ -62,11 +62,11 @@ export default function Navbar() {
           </Link>
 
           <div className="flex flex-row items-center space-x-8">
-            <div className="hidden lg:flex lg:flex-row lg:items-center lg:space-x-4">
+            <div className="hidden lg:flex lg:flex-row lg:items-center lg:space-x-6">
               {links?.map((item) => {
                 return (
                   <Link key={item.id} href={item.url}>
-                    <a className="font-body font-normal hover:font-medium text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 capitalize cursor-pointer hover:underline hover:underline-offset-8 decoration-sky-600 transition ease-in-out duration-300 hover:-translate-y-1 hover:duration-300 motion-safe:transition-none motion-reduce:transition-none">
+                    <a className="font-body font-normal text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 capitalize cursor-pointer decoration-sky-600 transition-all ease-in-out duration-500 hover:duration-500 hover:-translate-y-1 hover:border-b hover:border-b-sky-600">
                       {item.name}
                     </a>
                   </Link>
@@ -75,7 +75,7 @@ export default function Navbar() {
               <a
                 href="/cv_chuluq.pdf"
                 download="cv_chuluq"
-                className="font-body font-normal hover:font-medium text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 uppercase cursor-pointer hover:underline hover:underline-offset-8 decoration-sky-600 transition ease-in-out duration-300 hover:-translate-y-1 hover:duration-300 motion-safe:transition-none motion-reduce:transition-none"
+                className="font-body font-normal text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 uppercase cursor-pointer decoration-sky-600 transition-all ease-in-out duration-500 hover:duration-500 hover:-translate-y-1 hover:border-b hover:border-b-sky-600"
               >
                 cv
               </a>
@@ -126,7 +126,7 @@ export default function Navbar() {
               <Link key={item.id} href={item.url}>
                 <a
                   onClick={toggleLink}
-                  className="py-4 font-body font-normal hover:font-medium text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 capitalize cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 duration-150 hover:duration-150 motion-safe:transition-none motion-reduce:transition-none"
+                  className="py-4 font-body font-normal text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 capitalize cursor-pointer border-b transition-all ease-in-out duration-500 hover:duration-500 hover:border-b hover:border-b-sky-600 hover:translate-x-2"
                 >
                   {item.name}
                 </a>
@@ -137,7 +137,7 @@ export default function Navbar() {
             href="/cv_chuluq.pdf"
             download="cv_chuluq"
             onClick={toggleLink}
-            className="py-4 font-body font-normal hover:font-medium text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 uppercase cursor-pointer border-b hover:underline hover:underline-offset-8 transition-all ease-in-out hover:translate-x-2 duration-150 hover:duration-150 motion-safe:transition-none motion-reduce:transition-none"
+            className="py-4 font-body font-normal text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 uppercase cursor-pointer border-b transition-all ease-in-out duration-500 hover:duration-500 hover:border-b hover:border-b-sky-600 hover:translate-x-2"
           >
             cv
           </a>

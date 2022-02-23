@@ -84,7 +84,7 @@ export default function Navbar() {
             {/* Theme */}
             <div
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="bg-[#F4F4F4] dark:bg-[#404040] w-10 h-10 rounded p-1 flex items-center justify-center cursor-pointer transition-opacity ease-in duration-300 focus:duration-300"
+              className="bg-[#F4F4F4] hover:bg-line dark:bg-[#404040] dark:hover:bg-body w-10 h-10 rounded p-1 flex items-center justify-center cursor-pointer transition-opacity ease-in duration-300 focus:duration-300"
             >
               {theme === "dark" ? (
                 <svg

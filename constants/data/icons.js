@@ -1,5 +1,5 @@
 export const HTML = "HTML";
-export const CSS3 = "CSS3";
+export const CSS3 = "CSS";
 export const JAVASCRIPT = "JavaScript";
 export const TYPESCRIPT = "TypeScript";
 export const REACT = "React";

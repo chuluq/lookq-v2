@@ -66,7 +66,7 @@ export default function Navbar() {
               {links?.map((item) => {
                 return (
                   <Link key={item.id} href={item.url}>
-                    <a className="font-body font-normal text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 capitalize cursor-pointer decoration-sky-600 transition-all ease-in-out duration-500 hover:duration-500 hover:-translate-y-1 hover:border-b hover:border-b-sky-600">
+                    <a className="font-body font-normal text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 capitalize cursor-pointer decoration-sky-600 transition-all ease-in-out delay-75 duration-500 hover:duration-500 hover:-translate-y-1 hover:border-b hover:border-b-sky-600">
                       {item.name}
                     </a>
                   </Link>
@@ -75,7 +75,7 @@ export default function Navbar() {
               <a
                 href="/cv_chuluq.pdf"
                 download="cv_chuluq"
-                className="font-body font-normal text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 uppercase cursor-pointer decoration-sky-600 transition-all ease-in-out duration-500 hover:duration-500 hover:-translate-y-1 hover:border-b hover:border-b-sky-600"
+                className="font-body font-normal text-base leading-6 text-title dark:text-title-white hover:text-sky-600 dark:hover:text-sky-600 uppercase cursor-pointer decoration-sky-600 transition-all ease-in-out delay-75 duration-500 hover:duration-500 hover:-translate-y-1 hover:border-b hover:border-b-sky-600"
               >
                 cv
               </a>

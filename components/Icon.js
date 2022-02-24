@@ -40,12 +40,22 @@ import GithubIcon from "@/icons/github";
 import WhatsAppIcon from "@/icons/whatsapp";
 import FigmaIcon from "@/icons/figma";
 
-export default function Icon({ name, className, size }) {
+export default function Icon({ name, size }) {
   switch (name) {
     case HTML:
       return (
         <HTMLIcon
-          className={`${className} dark:fill-title-white hover:fill-[#E34F26] dark:hover:fill-[#E34F26]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#E34F26] dark:hover:fill-[#E34F26]`}
         />
       );
       break;
@@ -53,7 +63,17 @@ export default function Icon({ name, className, size }) {
     case CSS3:
       return (
         <CSSIcon
-          className={`${className} dark:fill-title-white hover:fill-[#1572B6] dark:hover:fill-[#1572B6]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#1572B6] dark:hover:fill-[#1572B6]`}
         />
       );
       break;
@@ -61,7 +81,17 @@ export default function Icon({ name, className, size }) {
     case JAVASCRIPT:
       return (
         <JavaScriptIcon
-          className={`${className} dark:fill-title-white hover:fill-[#F7DF1E] dark:hover:fill-[#F7DF1E]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#F7DF1E] dark:hover:fill-[#F7DF1E]`}
         />
       );
       break;
@@ -69,7 +99,17 @@ export default function Icon({ name, className, size }) {
     case TYPESCRIPT:
       return (
         <TypescriptIcon
-          className={`${className} dark:fill-title-white hover:fill-[#3178C6] dark:hover:fill-[#3178C6]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#3178C6] dark:hover:fill-[#3178C6]`}
         />
       );
       break;
@@ -77,19 +117,53 @@ export default function Icon({ name, className, size }) {
     case REACT:
       return (
         <ReactIcon
-          className={`${className} dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]`}
         />
       );
       break;
 
     case NEXTJS:
-      return <NextIcon className={`${className} dark:fill-title-white`} />;
+      return (
+        <NextIcon
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white`}
+        />
+      );
       break;
 
     case GATSBYJS:
       return (
         <GatsbyIcon
-          className={`${className} dark:fill-title-white hover:fill-[#663399] dark:hover:fill-[#663399]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#663399] dark:hover:fill-[#663399]`}
         />
       );
       break;
@@ -97,7 +171,17 @@ export default function Icon({ name, className, size }) {
     case REACTNATIVE:
       return (
         <ReactIcon
-          className={`${className} dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]`}
         />
       );
       break;
@@ -105,7 +189,17 @@ export default function Icon({ name, className, size }) {
     case REDUX:
       return (
         <ReduxIcon
-          className={`${className} dark:fill-title-white hover:fill-[#764ABC] dark:hover:fill-[#764ABC]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#764ABC] dark:hover:fill-[#764ABC]`}
         />
       );
       break;
@@ -113,7 +207,17 @@ export default function Icon({ name, className, size }) {
     case TAILWINDCSS:
       return (
         <TailwindIcon
-          className={`${className} dark:fill-title-white hover:fill-[#06B6D4] dark:hover:fill-[#06B6D4]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#06B6D4] dark:hover:fill-[#06B6D4]`}
         />
       );
       break;
@@ -121,31 +225,89 @@ export default function Icon({ name, className, size }) {
     case STRAPIJS:
       return (
         <StrapiIcon
-          className={`${className} dark:fill-title-white hover:fill-[#2F2E8B] dark:hover:fill-[#2F2E8B]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#2F2E8B] dark:hover:fill-[#2F2E8B]`}
         />
       );
       break;
 
     case MARKDOWN:
-      return <MarkdownIcon className={`${className} dark:fill-title-white`} />;
+      return (
+        <MarkdownIcon
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white`}
+        />
+      );
       break;
 
     case NODEJS:
       return (
         <NodeIcon
-          className={`${className} dark:fill-title-white hover:fill-[#339933] dark:hover:fill-[#339933]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#339933] dark:hover:fill-[#339933]`}
         />
       );
       break;
 
     case EXPRESSJS:
-      return <ExpressIcon className={`${className} dark:fill-title-white`} />;
+      return (
+        <ExpressIcon
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white`}
+        />
+      );
       break;
 
     case MONGODB:
       return (
         <MongoDBIcon
-          className={`${className} dark:fill-title-white hover:fill-[#47A248] dark:hover:fill-[#47A248]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } first-letter:dark:fill-title-white hover:fill-[#47A248] dark:hover:fill-[#47A248]`}
         />
       );
       break;
@@ -153,15 +315,26 @@ export default function Icon({ name, className, size }) {
     case FIGMA:
       return (
         <FigmaIcon
-          className={`${className} dark:fill-title-white hover:fill-[#F24E1E] dark:hover:fill-[#F24E1E]`}
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#F24E1E] dark:hover:fill-[#F24E1E]`}
         />
       );
       break;
 
+    // Special for Social Links
     case GMAIL:
       return (
         <GmailIcon
-          className={`${className} w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#EA4335] dark:hover:fill-[#EA4335] transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1`}
+          className={`w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#EA4335] dark:hover:fill-[#EA4335] transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1`}
         />
       );
       break;
@@ -169,7 +342,7 @@ export default function Icon({ name, className, size }) {
     case WHATSAPP:
       return (
         <WhatsAppIcon
-          className={`${className} w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#25D366] dark:hover:fill-[#25D366] transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1`}
+          className={`w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#25D366] dark:hover:fill-[#25D366] transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1`}
         />
       );
       break;
@@ -177,7 +350,7 @@ export default function Icon({ name, className, size }) {
     case GITHUB:
       return (
         <GithubIcon
-          className={`${className} w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#181717] dark:hover:fill-body-dark transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1`}
+          className={`w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#181717] dark:hover:fill-body-dark transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1`}
         />
       );
       break;

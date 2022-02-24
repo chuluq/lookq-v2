@@ -25,15 +25,15 @@ export const projects = [
     tools: [
       {
         id: 1,
-        icon: <Icon name={REACT} className="w-6 h-6" />,
+        icon: <Icon name={REACT} />,
       },
       {
         id: 2,
-        icon: <Icon name={NEXTJS} className="w-6 h-6" />,
+        icon: <Icon name={NEXTJS} />,
       },
       {
         id: 3,
-        icon: <Icon name={TAILWINDCSS} className="w-6 h-6" />,
+        icon: <Icon name={TAILWINDCSS} />,
       },
     ],
   },
@@ -46,19 +46,19 @@ export const projects = [
     tools: [
       {
         id: 1,
-        icon: <Icon name={REACT} className="w-6 h-6" />,
+        icon: <Icon name={REACT} />,
       },
       {
         id: 2,
-        icon: <Icon name={GATSBYJS} className="w-6 h-6" />,
+        icon: <Icon name={GATSBYJS} />,
       },
       {
         id: 3,
-        icon: <Icon name={STRAPIJS} className="w-6 h-6" />,
+        icon: <Icon name={STRAPIJS} />,
       },
       {
         id: 4,
-        icon: <Icon name={MARKDOWN} className="w-6 h-6" />,
+        icon: <Icon name={MARKDOWN} />,
       },
     ],
   },
@@ -71,19 +71,19 @@ export const projects = [
     tools: [
       {
         id: 1,
-        icon: <Icon name={REACT} className="w-6 h-6" />,
+        icon: <Icon name={REACT} />,
       },
       {
         id: 2,
-        icon: <Icon name={NODEJS} className="w-6 h-6" />,
+        icon: <Icon name={NODEJS} />,
       },
       {
         id: 3,
-        icon: <Icon name={EXPRESSJS} className="w-6 h-6" />,
+        icon: <Icon name={EXPRESSJS} />,
       },
       {
         id: 4,
-        icon: <Icon name={MONGODB} className="w-6 h-6" />,
+        icon: <Icon name={MONGODB} />,
       },
     ],
   },
@@ -96,15 +96,15 @@ export const projects = [
     tools: [
       {
         id: 1,
-        icon: <Icon name={HTML} className="w-6 h-6" />,
+        icon: <Icon name={HTML} />,
       },
       {
         id: 2,
-        icon: <Icon name={CSS3} className="w-6 h-6" />,
+        icon: <Icon name={CSS3} />,
       },
       {
         id: 3,
-        icon: <Icon name={JAVASCRIPT} className="w-6 h-6" />,
+        icon: <Icon name={JAVASCRIPT} />,
       },
     ],
   },

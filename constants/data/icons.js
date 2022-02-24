@@ -17,3 +17,9 @@ export const FIGMA = "Figma";
 export const GMAIL = "Gmail";
 export const WHATSAPP = "WhatsApp";
 export const GITHUB = "Github";
+
+export const SM = "SM"; // 4
+export const BASE = "BASE"; // 6
+export const LG = "LG"; // 8
+export const XL = "XL"; // 12
+export const XXL = "XXL"; // 16

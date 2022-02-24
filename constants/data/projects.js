@@ -1,33 +1,17 @@
-import HTMLIcon from "@/icons/html";
-import CSSIcon from "@/icons/css";
-import JavaScriptIcon from "@/icons/javascript";
-import ReactIcon from "constants/icons/react";
-import NextIcon from "@/icons/next";
-import GatsbyIcon from "constants/icons/gatsby";
-import TailwindIcon from "@/icons/tailwind";
-import StrapiIcon from "constants/icons/strapi";
-import MarkdownIcon from "constants/icons/markdown";
-import NodeIcon from "constants/icons/node";
-import ExpressIcon from "constants/icons/express";
-import MongoDBIcon from "constants/icons/mongodb";
 import Icon from "@/components/Icon";
 import {
   HTML,
   CSS3,
   JAVASCRIPT,
-  TYPESCRIPT,
   REACT,
   NEXTJS,
   GATSBYJS,
-  REACTNATIVE,
-  REDUX,
   STRAPIJS,
   MARKDOWN,
   TAILWINDCSS,
   NODEJS,
   EXPRESSJS,
   MONGODB,
-  FIGMA,
 } from "@/data/icons";
 
 export const projects = [
@@ -41,25 +25,15 @@ export const projects = [
     tools: [
       {
         id: 1,
-        icon: (
-          <Icon
-            name={REACT}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]"
-          />
-        ),
+        icon: <Icon name={REACT} className="w-6 h-6" />,
       },
       {
         id: 2,
-        icon: <Icon name={NEXTJS} className="w-6 h-6 dark:fill-title-white" />,
+        icon: <Icon name={NEXTJS} className="w-6 h-6" />,
       },
       {
         id: 3,
-        icon: (
-          <Icon
-            name={TAILWINDCSS}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#06B6D4] dark:hover:fill-[#06B6D4]"
-          />
-        ),
+        icon: <Icon name={TAILWINDCSS} className="w-6 h-6" />,
       },
     ],
   },
@@ -72,36 +46,19 @@ export const projects = [
     tools: [
       {
         id: 1,
-        icon: (
-          <Icon
-            name={REACT}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]"
-          />
-        ),
+        icon: <Icon name={REACT} className="w-6 h-6" />,
       },
       {
         id: 2,
-        icon: (
-          <Icon
-            name={GATSBYJS}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#663399] dark:hover:fill-[#663399]"
-          />
-        ),
+        icon: <Icon name={GATSBYJS} className="w-6 h-6" />,
       },
       {
         id: 3,
-        icon: (
-          <Icon
-            name={STRAPIJS}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#2F2E8B] dark:hover:fill-[#2F2E8B]"
-          />
-        ),
+        icon: <Icon name={STRAPIJS} className="w-6 h-6" />,
       },
       {
         id: 4,
-        icon: (
-          <Icon name={MARKDOWN} className="w-6 h-6 dark:fill-title-white" />
-        ),
+        icon: <Icon name={MARKDOWN} className="w-6 h-6" />,
       },
     ],
   },
@@ -114,36 +71,19 @@ export const projects = [
     tools: [
       {
         id: 1,
-        icon: (
-          <Icon
-            name={REACT}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]"
-          />
-        ),
+        icon: <Icon name={REACT} className="w-6 h-6" />,
       },
       {
         id: 2,
-        icon: (
-          <Icon
-            name={NODEJS}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#339933] dark:hover:fill-[#339933]"
-          />
-        ),
+        icon: <Icon name={NODEJS} className="w-6 h-6" />,
       },
       {
         id: 3,
-        icon: (
-          <Icon name={EXPRESSJS} className="w-6 h-6 dark:fill-title-white" />
-        ),
+        icon: <Icon name={EXPRESSJS} className="w-6 h-6" />,
       },
       {
         id: 4,
-        icon: (
-          <Icon
-            name={MONGODB}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#47A248] dark:hover:fill-[#47A248]"
-          />
-        ),
+        icon: <Icon name={MONGODB} className="w-6 h-6" />,
       },
     ],
   },
@@ -156,30 +96,15 @@ export const projects = [
     tools: [
       {
         id: 1,
-        icon: (
-          <Icon
-            name={HTML}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#E34F26] dark:hover:fill-[#E34F26]"
-          />
-        ),
+        icon: <Icon name={HTML} className="w-6 h-6" />,
       },
       {
         id: 2,
-        icon: (
-          <Icon
-            name={CSS3}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#1572B6] dark:hover:fill-[#1572B6]"
-          />
-        ),
+        icon: <Icon name={CSS3} className="w-6 h-6" />,
       },
       {
         id: 3,
-        icon: (
-          <Icon
-            name={JAVASCRIPT}
-            className="w-6 h-6 dark:fill-title-white hover:fill-[#F7DF1E] dark:hover:fill-[#F7DF1E]"
-          />
-        ),
+        icon: <Icon name={JAVASCRIPT} className="w-6 h-6" />,
       },
     ],
   },

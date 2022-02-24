@@ -19,20 +19,14 @@ export const tools = [
     id: 1,
     name: HTML,
     icon: (
-      <Icon
-        name={HTML}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#E34F26] dark:hover:fill-[#E34F26]"
-      />
+      <Icon name={HTML} className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />
     ),
   },
   {
     id: 2,
     name: CSS3,
     icon: (
-      <Icon
-        name={CSS3}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#1572B6] dark:hover:fill-[#1572B6]"
-      />
+      <Icon name={CSS3} className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />
     ),
   },
   {
@@ -41,7 +35,7 @@ export const tools = [
     icon: (
       <Icon
         name={JAVASCRIPT}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#F7DF1E] dark:hover:fill-[#F7DF1E]"
+        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
       />
     ),
   },
@@ -51,7 +45,7 @@ export const tools = [
     icon: (
       <Icon
         name={TYPESCRIPT}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#3178C6] dark:hover:fill-[#3178C6]"
+        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
       />
     ),
   },
@@ -59,20 +53,14 @@ export const tools = [
     id: 5,
     name: REACT,
     icon: (
-      <Icon
-        name={REACT}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]"
-      />
+      <Icon name={REACT} className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />
     ),
   },
   {
     id: 6,
     name: NEXTJS,
     icon: (
-      <Icon
-        name={NEXTJS}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white"
-      />
+      <Icon name={NEXTJS} className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />
     ),
   },
   {
@@ -81,7 +69,7 @@ export const tools = [
     icon: (
       <Icon
         name={REACTNATIVE}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]"
+        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
       />
     ),
   },
@@ -89,10 +77,7 @@ export const tools = [
     id: 8,
     name: REDUX,
     icon: (
-      <Icon
-        name={REDUX}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#764ABC] dark:hover:fill-[#764ABC]"
-      />
+      <Icon name={REDUX} className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />
     ),
   },
   {
@@ -101,7 +86,7 @@ export const tools = [
     icon: (
       <Icon
         name={TAILWINDCSS}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#06B6D4] dark:hover:fill-[#06B6D4]"
+        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
       />
     ),
   },
@@ -109,10 +94,7 @@ export const tools = [
     id: 10,
     name: NODEJS,
     icon: (
-      <Icon
-        name={NODEJS}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#339933] dark:hover:fill-[#339933]"
-      />
+      <Icon name={NODEJS} className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />
     ),
   },
   {
@@ -121,7 +103,7 @@ export const tools = [
     icon: (
       <Icon
         name={EXPRESSJS}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white"
+        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
       />
     ),
   },
@@ -129,10 +111,7 @@ export const tools = [
     id: 12,
     name: FIGMA,
     icon: (
-      <Icon
-        name={FIGMA}
-        className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 dark:fill-title-white hover:fill-[#F24E1E] dark:hover:fill-[#F24E1E]"
-      />
+      <Icon name={FIGMA} className="w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16" />
     ),
   },
 ];

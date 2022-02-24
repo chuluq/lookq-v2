@@ -1,3 +1,4 @@
+import { SM, BASE, LG, XL, XXL } from "@/data/icons";
 import {
   HTML,
   CSS3,
@@ -39,82 +40,146 @@ import GithubIcon from "@/icons/github";
 import WhatsAppIcon from "@/icons/whatsapp";
 import FigmaIcon from "@/icons/figma";
 
-export default function Icon({ name, className }) {
+export default function Icon({ name, className, size }) {
   switch (name) {
     case HTML:
-      return <HTMLIcon className={className} />;
+      return (
+        <HTMLIcon
+          className={`${className} dark:fill-title-white hover:fill-[#E34F26] dark:hover:fill-[#E34F26]`}
+        />
+      );
       break;
 
     case CSS3:
-      return <CSSIcon className={className} />;
+      return (
+        <CSSIcon
+          className={`${className} dark:fill-title-white hover:fill-[#1572B6] dark:hover:fill-[#1572B6]`}
+        />
+      );
       break;
 
     case JAVASCRIPT:
-      return <JavaScriptIcon className={className} />;
+      return (
+        <JavaScriptIcon
+          className={`${className} dark:fill-title-white hover:fill-[#F7DF1E] dark:hover:fill-[#F7DF1E]`}
+        />
+      );
       break;
 
     case TYPESCRIPT:
-      return <TypescriptIcon className={className} />;
+      return (
+        <TypescriptIcon
+          className={`${className} dark:fill-title-white hover:fill-[#3178C6] dark:hover:fill-[#3178C6]`}
+        />
+      );
       break;
 
     case REACT:
-      return <ReactIcon className={className} />;
+      return (
+        <ReactIcon
+          className={`${className} dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]`}
+        />
+      );
       break;
 
     case NEXTJS:
-      return <NextIcon className={className} />;
+      return <NextIcon className={`${className} dark:fill-title-white`} />;
       break;
 
     case GATSBYJS:
-      return <GatsbyIcon className={className} />;
+      return (
+        <GatsbyIcon
+          className={`${className} dark:fill-title-white hover:fill-[#663399] dark:hover:fill-[#663399]`}
+        />
+      );
       break;
 
     case REACTNATIVE:
-      return <ReactIcon className={className} />;
+      return (
+        <ReactIcon
+          className={`${className} dark:fill-title-white hover:fill-[#61DAFB] dark:hover:fill-[#61DAFB]`}
+        />
+      );
       break;
 
     case REDUX:
-      return <ReduxIcon className={className} />;
+      return (
+        <ReduxIcon
+          className={`${className} dark:fill-title-white hover:fill-[#764ABC] dark:hover:fill-[#764ABC]`}
+        />
+      );
       break;
 
     case TAILWINDCSS:
-      return <TailwindIcon className={className} />;
+      return (
+        <TailwindIcon
+          className={`${className} dark:fill-title-white hover:fill-[#06B6D4] dark:hover:fill-[#06B6D4]`}
+        />
+      );
       break;
 
     case STRAPIJS:
-      return <StrapiIcon className={className} />;
+      return (
+        <StrapiIcon
+          className={`${className} dark:fill-title-white hover:fill-[#2F2E8B] dark:hover:fill-[#2F2E8B]`}
+        />
+      );
       break;
 
     case MARKDOWN:
-      return <MarkdownIcon className={className} />;
+      return <MarkdownIcon className={`${className} dark:fill-title-white`} />;
       break;
 
     case NODEJS:
-      return <NodeIcon className={className} />;
+      return (
+        <NodeIcon
+          className={`${className} dark:fill-title-white hover:fill-[#339933] dark:hover:fill-[#339933]`}
+        />
+      );
       break;
 
     case EXPRESSJS:
-      return <ExpressIcon className={className} />;
+      return <ExpressIcon className={`${className} dark:fill-title-white`} />;
       break;
 
     case MONGODB:
-      return <MongoDBIcon className={className} />;
+      return (
+        <MongoDBIcon
+          className={`${className} dark:fill-title-white hover:fill-[#47A248] dark:hover:fill-[#47A248]`}
+        />
+      );
       break;
 
     case FIGMA:
-      return <FigmaIcon className={className} />;
+      return (
+        <FigmaIcon
+          className={`${className} dark:fill-title-white hover:fill-[#F24E1E] dark:hover:fill-[#F24E1E]`}
+        />
+      );
       break;
 
     case GMAIL:
-      return <GmailIcon className={className} />;
+      return (
+        <GmailIcon
+          className={`${className} w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#EA4335] dark:hover:fill-[#EA4335] transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1`}
+        />
+      );
       break;
 
     case WHATSAPP:
-      return <WhatsAppIcon className={className} />;
+      return (
+        <WhatsAppIcon
+          className={`${className} w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#25D366] dark:hover:fill-[#25D366] transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1`}
+        />
+      );
       break;
 
     case GITHUB:
-      return <GithubIcon className={className} />;
+      return (
+        <GithubIcon
+          className={`${className} w-6 lg:w-4 h-6 lg:h-4 fill-[#595959] dark:fill-title-white hover:fill-[#181717] dark:hover:fill-body-dark transition-all ease-out duration-500 hover:duration-500 hover:-translate-y-1`}
+        />
+      );
       break;
 
     default:

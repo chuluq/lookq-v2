@@ -307,7 +307,7 @@ export default function Icon({ name, size }) {
               : size === XXL
               ? "w-16 h-16"
               : "w-6 h-6"
-          } first-letter:dark:fill-title-white hover:fill-[#47A248] dark:hover:fill-[#47A248]`}
+          } dark:fill-title-white hover:fill-[#47A248] dark:hover:fill-[#47A248]`}
         />
       );
       break;

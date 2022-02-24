@@ -2,7 +2,7 @@ import { tools } from "@/data/tools";
 
 export default function Tools() {
   return (
-    <div className="grid grid-cols-3 gap-6">
+    <div className="grid grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-16">
       {tools?.map((item) => {
         return (
           <div

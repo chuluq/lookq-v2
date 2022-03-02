@@ -18,6 +18,7 @@ import {
   FIGMA,
   GMAIL,
   WHATSAPP,
+  GIT,
   GITHUB,
 } from "@/data/icons";
 
@@ -36,6 +37,7 @@ import NodeIcon from "@/icons/node";
 import ExpressIcon from "@/icons/express";
 import MongoDBIcon from "@/icons/mongodb";
 import GmailIcon from "@/icons/gmail";
+import GitIcon from "@/icons/git";
 import GithubIcon from "@/icons/github";
 import WhatsAppIcon from "@/icons/whatsapp";
 import FigmaIcon from "@/icons/figma";
@@ -326,6 +328,24 @@ export default function Icon({ name, size }) {
               ? "w-16 h-16"
               : "w-6 h-6"
           } dark:fill-title-white hover:fill-[#F24E1E] dark:hover:fill-[#F24E1E]`}
+        />
+      );
+      break;
+
+    case GIT:
+      return (
+        <GitIcon
+          className={`${
+            size === SM
+              ? "w-4 h-4"
+              : size === LG
+              ? "w-8 h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16"
+              : size === XL
+              ? "w-12 h-12"
+              : size === XXL
+              ? "w-16 h-16"
+              : "w-6 h-6"
+          } dark:fill-title-white hover:fill-[#F05032] dark:hover:fill-[#F05032]`}
         />
       );
       break;

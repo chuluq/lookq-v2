@@ -16,6 +16,7 @@ export const MONGODB = "MongoDB";
 export const FIGMA = "Figma";
 export const GMAIL = "Gmail";
 export const WHATSAPP = "WhatsApp";
+export const GIT = "Git";
 export const GITHUB = "Github";
 
 export const SM = "SM"; // 4

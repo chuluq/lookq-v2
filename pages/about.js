@@ -51,10 +51,9 @@ export default function About() {
                 great things it brings!.
               </p>
               <p className="font-body font-medium text-base leading-6 text-body dark:text-body-dark">
-                I’m currently working as a front-end developer at Teravin
-                Technology, Yogyakarta where I slice the design into
-                applications. Working on personal projects and learning more on
-                how to code effectively, robust and reusable.
+                I’m currently working as a front-end developer at Yogyakarta.
+                However, I also love to Working on personal projects and
+                learning more on how to code effectively, robust and reusable.
               </p>
             </div>
           </div>

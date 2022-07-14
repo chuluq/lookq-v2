@@ -41,7 +41,6 @@ export const projects = [
     id: 2,
     title: "Portfolio v1",
     details: "The first creation of my portfolio built with Gatsby and Strapi.",
-    siteUrl: "https://lookq.netlify.app/",
     sourceUrl: "https://github.com/chuluq/lookq.com",
     tools: [
       {
